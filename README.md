@@ -6,9 +6,9 @@
 <ul>
   <li>First open the crudwithapi Folder</li>
   <li>Run the command</li>
-  ```javascript 
-  npm i 
-  ```
+```javascript
+npm install
+```
   <li>next</li>
   ```javascript
    npm run dev 
