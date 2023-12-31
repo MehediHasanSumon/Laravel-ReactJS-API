@@ -16,20 +16,13 @@ Run the following command to install project dependencies:
 <li>Start Development Server:</li>
 </ol>
 Initiate the development server with the following command: 
-```bash 
+```javascript
 npm run dev
 ```
 ##Backend (Laravel)
 <ol>
 <li>Create a Database:</li>
-<p>
-Open XAMPP and create a new database named 
-```bash 
- restapi
-```
- . This database will be
- used by the Laravel backend.
-</p>
+Open XAMPP and create a new database named `restapi` . This database will be used by the Laravel backend.
 <li>Navigate to Rest-Api Folder:</li>
 <p>Open the Rest-Api folder in your terminal or code editor.</p>
 <li>Install PHP Dependencies:</li>
@@ -38,7 +31,7 @@ Open XAMPP and create a new database named
 ```bash
 composer install
 ```
-
+  
 <li>Run Database Migrations:</li>
 <p>Execute the migration command to set up the database tables:</p>
 
@@ -47,7 +40,7 @@ php artisan migrate
 ```
 <li>Start Laravel Server:</li>
 <p>Launch the Laravel development server:</p>
-```bash 
-php artisan serve 
+```bash
+php artisan serve
 ```
 </ol>
