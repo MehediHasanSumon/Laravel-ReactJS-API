@@ -1,3 +1,4 @@
+
 # Connecting Frontend and Backend Using API
 
 To integrate your frontend and backend with Laravel and ReactJS, follow these steps:
@@ -12,35 +13,44 @@ Run the following command to install project dependencies:
 ```bash
   npm install
 ```
-<ol>
-<li>Start Development Server:</li>
-</ol>
+
+Start Development Server:
+
+
 Initiate the development server with the following command: 
-```javascript
+
+```bash
 npm run dev
 ```
-##Backend (Laravel)
-<ol>
-<li>Create a Database:</li>
+
+## Backend (Laravel)
+
+1. **Create a Database:**
+
 Open XAMPP and create a new database named `restapi` . This database will be used by the Laravel backend.
-<li>Navigate to Rest-Api Folder:</li>
-<p>Open the Rest-Api folder in your terminal or code editor.</p>
-<li>Install PHP Dependencies:</li>
-<p>Run the following command to install PHP dependencies:</p>
+
+2. **Navigate to Rest-Api Folder:**
+
+Open the Rest-Api folder in your terminal or code editor.
+
+3. **Install PHP Dependencies:**
+
+Run the following command to install PHP dependencies:
 
 ```bash
 composer install
 ```
   
-<li>Run Database Migrations:</li>
-<p>Execute the migration command to set up the database tables:</p>
+4. **Run Database Migrations:**
+Execute the migration command to set up the database tables:
 
 ```bash
 php artisan migrate 
 ```
-<li>Start Laravel Server:</li>
-<p>Launch the Laravel development server:</p>
+5. **Start Laravel Server:** 
+
+Launch the Laravel development server:
 ```bash
 php artisan serve
 ```
-</ol>
+
